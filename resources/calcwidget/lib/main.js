@@ -1,6 +1,6 @@
-var widgets = require("widget");
-var tabs = require("tabs");
-var self = require("self");
+var widgets = require("sdk/widget");
+var tabs = require("sdk/tabs");
+var self = require("sdk/self");
  
 var widget = widgets.Widget({
     id: "info@fbalabels.com",
