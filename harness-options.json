@@ -1,0 +1,51 @@
+{
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid0-K4sSWI9EX1sIjKx4edfZNazXKlA@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "calcwidget/main", 
+ "manifest": {
+  "calcwidget/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "f40d642c7b5403955940c2c2c51573a064e5ad0948cfe69aa455b126af165b34", 
+   "moduleName": "main", 
+   "packageName": "calcwidget", 
+   "requirements": {
+    "self": "sdk/self", 
+    "tabs": "sdk/tabs", 
+    "widget": "sdk/widget"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "calcwidget": {
+   "author": "Robert", 
+   "description": "Quickly go from an Amazon product page to the FBA Calculator loaded with the ASIN for that product.", 
+   "main": "main", 
+   "name": "FBA Calculator Widget", 
+   "version": "1.9"
+  }
+ }, 
+ "name": "calcwidget", 
+ "parseable": false, 
+ "sdkVersion": "1.15", 
+ "staticArgs": {}, 
+ "verbose": false
+}
